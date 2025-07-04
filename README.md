@@ -1,10 +1,10 @@
-# 🎬 IMDB Sentiment Analysis - Movie Reviews
+# IMDB Sentiment Analysis - Movie Reviews
 
 This project performs binary sentiment classification (Positive / Negative) on the IMDB dataset using multiple natural language processing techniques and machine learning models.
 
 ---
 
-## 📁 Dataset Info
+## Dataset Info
 
 - **Source**: [Kaggle - IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/data)  
 - **Original Paper & Data**: [Stanford AI - Maas et al.](http://ai.stanford.edu/~amaas/data/sentiment/)
@@ -15,26 +15,26 @@ This project performs binary sentiment classification (Positive / Negative) on t
 
 ---
 
-## 🧠 Techniques & Models Used
+## Techniques & Models Used
 
-### 📊 Preprocessing
+### Preprocessing
 - Lowercasing, removal of non-alphabetic characters
 - Tokenization using `nltk`
 - Stopwords removal
 - Stemming and Lemmatization
 
-### 🧰 Vectorization Techniques
+### Vectorization Techniques
 - Bag of Words (BoW)
 - TF-IDF
 - Word2Vec (Trained from scratch)
 
-### 🧪 Models Trained
+### Models Trained
 - Multinomial Naive Bayes (for BoW and TF-IDF)
 - MLPClassifier (for Word2Vec)
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 Each model is evaluated using the following metrics:
 - Accuracy
@@ -44,7 +44,7 @@ Each model is evaluated using the following metrics:
 
 ---
 
-## 🖼️ Performance Comparison
+## Performance Comparison
 
 The following plot shows a comparison of all three models on Accuracy, Precision, Recall, and F1 Score.
 
