@@ -9,8 +9,6 @@ This project performs binary sentiment classification (Positive / Negative) on t
 - **Source**: [Kaggle - IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/data)  
 - **Original Paper & Data**: [Stanford AI - Maas et al.](http://ai.stanford.edu/~amaas/data/sentiment/)
 - **Total Reviews**: 50,000
-  - 25,000 for training
-  - 25,000 for testing
 - **Labels**: `positive` or `negative` (binary classification)
 
 ---
